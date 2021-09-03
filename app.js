@@ -7,7 +7,7 @@ const app = express();  //criando uma aplicação do express
 const port = 3000; //definindo a porta
 
 //conexao com bando de dados, com uso de flags para tratamentos de erros e evitar depreciação de codigos
-mongoose.connect("mongodb+srv://camila_chang:camila_chang@cluster0.gcljv.mongodb.net/vendas?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://usuario:senha@cluster0.gcljv.mongodb.net/vendas?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 // elimina a depreciacao do mongoose
 // criando um modelo que irá compor a collection do banco
 
