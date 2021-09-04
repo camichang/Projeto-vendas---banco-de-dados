@@ -45,6 +45,12 @@
 
                             </tr>
                         <% }) %>
+                        
+                          <% if (produto_itens==0){ %>
+                                    <tr>
+                                        <td>Nenhum produto</td>
+                                    </tr>
+                                    <% } %>
 <!-- precisa fechar a tag sempre que for necessario adicionar alguma informaco dentro-->
                     </tbody>
                 </table>
